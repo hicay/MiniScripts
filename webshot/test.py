@@ -1,10 +1,7 @@
-
-#Ekran Goruntusu
-
+# Ekran Goruntusu
+# Alican Çamlıbel 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-
-
 
 import os
 cPath = os.path.dirname(os.path.abspath(__file__))
