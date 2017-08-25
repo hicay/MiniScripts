@@ -8,4 +8,4 @@ You need to download chrome driver Link: https://sites.google.com/a/chromium.org
 
 ## For Firefox
 
-You need to download geckodriver  Link: https://github.com/mozilla/geckodriver/releases
+You need to download geckodriver  Link: https://github.com/mozilla/geckodriver/releases 
