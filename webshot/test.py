@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 # Ekran Goruntusu
 # Alican Çamlıbel 
 from selenium import webdriver
@@ -50,6 +52,6 @@ for obj in screenSizes:
     driver.get('')
     height = driver.execute_script("return Math.max(document.body.scrollHeight, document.body.offsetHeight, document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight);")
     driver.set_window_size(obj.width,height)
-    driver.save_screenshot(('screen%sX%s-%s.png' % (obj.width, height,obj.name)))
+    driver.save_screenshot(('ss/screen%sX%s-%s.png' % (obj.width, height,obj.name)))
 
 driver.quit()
